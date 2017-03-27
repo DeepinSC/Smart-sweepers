@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/1/10 星期二 上午 11:30:15。
+     1>项目“C:\Users\Administrator\Desktop\code for ANN\Chapter07\smart sweepers - people\smart sweepers.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CController.cpp
+         CController.cpp
+     1>c:\users\administrator\desktop\code for ann\chapter07\smart sweepers - people\CMinesweeper.h(92): warning C4552: “-”: 运算符不起任何作用；应输入带副作用的运算符
+     1>CController.cpp(290): warning C4018: “<”: 有符号/无符号不匹配
+     1>CController.cpp(311): warning C4018: “<”: 有符号/无符号不匹配
+     1>CController.cpp(392): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>CController.cpp(395): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>CController.cpp(400): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>CController.cpp(409): warning C4018: “<”: 有符号/无符号不匹配
+     1>CController.cpp(423): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\Administrator\Desktop\code for ANN\Chapter07\smart sweepers - people\.\Release\smart sweepers.exe) does not match the Linker's OutputFile property value (C:\Users\Administrator\Desktop\code for ANN\Chapter07\smart sweepers - people\Release\smart sweepersv1.1.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(smart sweepers) does not match the Linker's OutputFile property value (smart sweepersv1.1). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release/smart sweepersv1.1.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release\smart sweepers.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\smart sweepers.lib" /MACHINE:X86 /SAFESEH .\Release\Script1.res
+         .\Release\C2DMatrix.obj
+         .\Release\CController.obj
+         .\Release\CGenAlg.obj
+         .\Release\CMinesweeper.obj
+         .\Release\CNeuralNet.obj
+         .\Release\CParams.obj
+         .\Release\CTimer.obj
+         .\Release\main.obj
+         .\Release\utils.obj
+         smart sweepers.vcxproj -> C:\Users\Administrator\Desktop\code for ANN\Chapter07\smart sweepers - people\.\Release\smart sweepers.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\code for ANN\Chapter07\smart sweepers - people\smart sweepers.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.20
